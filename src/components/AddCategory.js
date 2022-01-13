@@ -23,10 +23,13 @@ export const AddCategory = ({ setCategories }) => {
         <form onSubmit={ handleSubmit }>
             <input 
                 type="text"
+                placeholder=' Search'
                 value={ inputValue }
                 onChange={ handleInputChange }
             />
+            <div className='lupa'><i class="fas fa-search"></i></div>
         </form>
+        
     )
 }
 
